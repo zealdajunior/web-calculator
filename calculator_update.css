@@ -1,0 +1,108 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+/****************Nav-bar************************/
+nav ul{
+    margin: 0;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+ul li:hover{
+    padding: 10px 10px;
+    background-color: blue;
+    color: white;
+}
+nav ul li{
+    list-style: none;
+}
+input{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:black;
+    color: white;
+    width: 646px;
+    height: 160px;
+    text-align: right;
+    font-size: 90px;
+}
+/****************Buttons***********/
+main{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+.sub-section{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.sub-section button{
+    
+    width: 160px;
+    height: 160px;
+}
+.sub-section1{
+    padding-left: 12px;
+}
+.sub-section1 button{
+    margin: 0;
+    border: 1px solid;
+    width: 160px;
+    height: 160px;
+}
+.sub-section2{
+    display: flex;
+    gap: 2px;
+    padding-left: 15px;
+    
+}
+.sub-section2 button{
+    margin-top: 2px;
+    width: 160px;
+    height: 150px;
+}
+.sections{
+    border: 5px;
+    display: flex;
+    gap: 2px;
+    margin-top: 2px;
+    margin-left:14px ;
+}
+.special-btn button{
+    height: 484px;
+    width: 168px;
+    background: linear-gradient(to top, orangered,orangered);
+}
+#ops{
+    width: 168px;
+    height: 150px;
+}
+input{
+    transition: all 1s ease-in-out;
+}
+#Btn{
+    border: none;
+    box-shadow: 2px 2px 4px 2px gray;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
