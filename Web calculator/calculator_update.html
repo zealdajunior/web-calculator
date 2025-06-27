@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="calculator_update.css">
+        
+    </head>
+    <body id="color">
+        <nav>
+            <ul>
+                <li>About</li>
+                <li>Info</li>
+            </ul>
+        </nav>
+        <main>
+            <button id="Btn">Day/Night</button>
+            <div class="main">
+                <input type="text" id="int">
+                <div class="sub-section1">
+                    <button type="button" onclick="operation('+')">➕</button>
+                    <button type="button" onclick="operation('-')">➖</button>
+                    <button type="button" onclick="operation('*')">✖️</button>
+                    <button type="button" onclick="operation('/')">➗</button>
+                </div>
+                <div class="sections">
+                    <div class="sub-section">
+                        <button type="button" onclick="button('7')">7</button>
+                        <button type="button" onclick="button('4')">4</button>
+                        <button type="button" onclick="button('1')">1</button>
+                    </div>
+                    <div class="sub-section">
+                        <button type="button" onclick="button('8')">8</button>
+                        <button type="button" onclick="button('5')" >5</button>
+                        <button type="button" onclick="button('2')">2</button>
+                    </div>
+                    <div class="sub-section">
+                        <button type="button" onclick="button('9')">9</button>
+                        <button type="button" onclick="button('6')">6</button>
+                        <button type="button" onclick="button('3')">3</button>
+                    </div>
+                    <div class="special-btn">
+                        <button type="button" onclick="button('=')">=</button>
+                    </div>
+                </div>
+                   
+            </div>
+            <div class="sub-section2">
+                <button type="button">0</button>
+                <button type="button" onclick="button('.')">.</button>
+                <button type="button" onclick="clear()">AC</button>
+                <button type="button" id="ops">%</button>
+            </div>
+        </main>
+        <script src="calculator.js" defer></script>
+    </body>
+</html>
